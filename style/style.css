@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0 px;
+    font-family: Circe, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 47px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4);
+}
+p {
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+button {
+    width: 200px;
+    border: 2px solid black;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    letter-spacing: 2px;
+}
+.promo-block {
+    position: fixed;
+    z-index: 1;
+    height: 300px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/promo-block.jpg) no-repeat -200px -50px;
+    background-size: 125%;
+    width: 100%;
+}
+
+
+.mainTheme {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    margin-top: 100vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 10;
+}
+.mainTheme-desc {
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+.mainTheme-desc_caption, .mainTheme-desc_text {
+    color: black;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.mainTheme > img {
+    background-color: #fff;
+}
+
