@@ -10,4 +10,7 @@
     }
   
   });*/
+
   $('.promo-block').css({'top': -$(window).scrollTop()/3});
+
+// i will will smith
